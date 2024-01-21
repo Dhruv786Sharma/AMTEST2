@@ -1,0 +1,19 @@
+#main
+{
+    background-color: orange;
+    
+}
+
+#ARM
+{
+    animation-name: name-ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes name-ani
+{
+    from {font-weight: lighter; font-size: 5vw;}
+    to {font-weight: bolder; font-size: 10vw;}
+}
